@@ -1,0 +1,23 @@
+body {
+    margin: 0 auto;  /*Vi sätter margin 0 på top/bottom och auto på left/right*/
+    width: 600px;    /*Vi sätter en bredd på webbsidan till 600px*/
+    font-size: 16 px; /*Vi sätter en standard på text-storlek till 16px*/
+}
+   
+h1 {     /*selektor för h1*/
+    text-align: center;     /*Vi centrerar texten*/
+    font-size: 450%;        /*Vi sätter en text-storlek till 450% av vår standard*/
+    color: #cb001f;         /*Vi sätter en textfärg till en sorts röd(hexkod)*/
+    border-bottom: 2px solid black; /*Vi skapar en border på undersidan, 2px tjock, solid och svartfärgad*/
+}
+
+p {   /*selektor för paragraf*/
+    font-size: 120%;        /*Vi sätter en text-storlek till 120% av vår standard*/
+    padding: 0 20px;        /*Vi sätter en padding på 0 i top/bottom och 20 på left/right*/
+    text-align: justify;    /*Vi sätter justify som text-align.  (bakar ut texten snyggt)*/
+}
+
+li {    /*Selektor för varje listelement*/
+    float: left;            /*Vi säger åt våra li för att lägga sig till vänster*/
+    margin-left: 40px;      /*Vi sätter en vänster-marginal på 40px*/
+}
